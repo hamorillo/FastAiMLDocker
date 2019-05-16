@@ -22,6 +22,10 @@ This container pulls the neccesary fast.ai classes and data. This Docker file is
 
 When you run your container, it will print in the console the URL from where you can access to the jupyter notebook.
 
+You can know the jupyter notebook too, with the following command:
+
+`jupyter notebook list`
+
 ## Pre-built runtimes
 
 You can just run the following without having to build the entire container yourself. This will pull the container from Docker Hub.
