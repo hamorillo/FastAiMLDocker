@@ -22,6 +22,12 @@ This container pulls the neccesary fast.ai classes and data. This Docker file is
 
 When you run your container, it will print in the console the URL from where you can access to the jupyter notebook.
 
+## Pre-built runtimes
+
+You can just run the following without having to build the entire container yourself. This will pull the container from Docker Hub.
+
+`docker run -d -p 8888:8888 hamorillo/fast_ai_ml_course_environment`
+
 # Download dataset
 
 You should download the zip with the dataset from Kaggle in the folder:
