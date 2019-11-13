@@ -24,7 +24,7 @@ When you run your container, it will print in the console the URL from where you
 
 You can know the jupyter notebook too, with the following command:
 
-`jupyter notebook list`
+`jupyter notebook list` 
 
 ## Pre-built runtimes
 
@@ -38,4 +38,4 @@ You should download the zip with the dataset from Kaggle in the folder:
 
 **/notebooks/courses/ml1/data/bulldozers**
 
-You can do it with a cURL in the terminal of the docker container. (Don't forget to accept the terms & conditions in Kaggle web to retrive the cURL). When you have the dataset downloaded, just unzip it in the previous folder.
+You can do it with a cURL in the terminal of the docker container ```docker exec -it <containerId>  bash```. (Don't forget to accept the terms & conditions in Kaggle web to retrive the cURL). When you have the dataset downloaded, just unzip it in the previous folder.
